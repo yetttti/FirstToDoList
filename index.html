@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="ToDoApp">
+<div class="menuToDo">
+    <button class="openDiv" type="button" onclick="CloseDiv(false)"><img src="assets/plus.png"></button>
+    <h1>ToDoList</h1>
+</div>
+
+<div class="formTask" hidden>
+    <form class="formToDo">
+        <label class="fontTask">Добавить новую задачу:</label>
+        <button class="closeForm" type="button" onclick="CloseDiv(true)"><img src="assets/close.png"></button>
+            <input class="nameTask" type="text" name="inputTask"  placeholder="Введите задачу:">
+            <button class="plusTask" type="button" onclick="AddNewTask()"><img src="assets/plus.png"></button>
+    </form>
+</div>
+
+<div >
+    <ol class="ToDoList">
+    </ol>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,149 @@
+.ToDoApp{
+    width: 1152px;
+    height: 600px;
+    margin-left: 384px;
+    margin-right: 384px;
+    background-color: darkgrey;
+    box-shadow: 8px 8px 8px black;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    overflow: scroll;
+}
+.menuToDo{
+    width: 100%;
+    height: 70px;
+    background-color: darkslategray;
+    border-radius: 10px;
+}
+.openDiv{
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+
+}
+.formTask{
+    margin-left: 326px;
+    margin-right: 326px;
+    margin-top: -30px;
+    float: top;
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    z-index: 2;
+    border-radius: 10px;
+
+}
+
+.formToDo{
+    background-color: darkslateblue;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px black;
+}
+.nameTask{
+
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 75px;
+    z-index: 2;
+}
+.plusTask{
+    position: absolute;
+    width: 50px;
+    height: 56px;
+    margin-top: 75px;
+    margin-left: 383px;
+    z-index: 2;
+}
+
+img{
+    width: 25px;
+    height: 25px;
+    alignment: center;
+    pointer-events: none;
+}
+.openDiv{
+    width: 50px;
+    height: 50px;
+}
+.closeForm{
+    width: 50px;
+    height: 50px;
+    float: right;
+    background-color: maroon;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.fontTask{
+    float: left;
+   color: white;
+    margin-left: 75px;
+    margin-top: 50px;
+    position: absolute;
+    font-size: 20px;
+    font-family: Arial;
+
+}
+.task-item{
+    background-color: white;
+    width: 50%;
+    height: 70px;
+    margin-left: 288px;
+    margin-right: 288px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: Arial;
+    border-radius: 20px;
+    border: solid 1px black;
+
+}
+.task-item2{
+    background-color: mediumseagreen;
+}
+.task-item2 span{
+    text-decoration: line-through;
+
+}
+
+.taskText{
+    overflow: hidden;
+    width: 60%;
+    height: 30px;
+    margin: 25px 30px;
+
+
+}
+.btnAction {
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: seagreen;
+
+
+}
+.btnAction2 {
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: maroon;
+    margin-right: 10px;
+
+}
+button{
+    border-radius: 15px;
+}
+h1{
+    text-align: center;
+    margin: 0;
+    color: white;
+    font-family:Arial;
+    padding-top: 15px;
+}
+
+
+
