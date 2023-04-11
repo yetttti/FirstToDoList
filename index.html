@@ -12,19 +12,20 @@
 <div class="ToDoApp">
 <div class="menuToDo">
     <button class="openDiv" type="button" onclick="CloseDiv(false)"><img src="assets/plus.png"></button>
-    <h1>ToDoList</h1>
+    <h1>ToDo List</h1>
 </div>
 
 <div class="formTask" hidden>
     <form class="formToDo">
-        <label class="fontTask">Добавить новую задачу:</label>
         <button class="closeForm" type="button" onclick="CloseDiv(true)"><img src="assets/close.png"></button>
+        <div class="inputTask">
             <input class="nameTask" type="text" name="inputTask"  placeholder="Введите задачу:">
             <button class="plusTask" type="button" onclick="AddNewTask()"><img src="assets/plus.png"></button>
+        </div>
     </form>
 </div>
 
-<div >
+<div class="divList">
     <ol class="ToDoList">
     </ol>
 </div>
